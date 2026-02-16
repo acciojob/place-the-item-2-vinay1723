@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+.holder {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+
+.holder > * {
+	width:100px;
+	height:100px;
+}
+
+.holder *:nth-child(1){
+	background-color:red;
+}
+.holder *:nth-child(2){
+	background-color:blue;
+}
+.holder *:nth-child(3){
+	background-color:green;
+}
